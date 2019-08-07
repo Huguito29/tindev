@@ -13,6 +13,10 @@ module.exports = {
 
   if (userExists) {
     return res.json(userExists);
+  } if (userExists) {
+    return res.json(userExists);
+  } if (userExists) {
+    return res.json(userExists);
   }
 
   const response = await axios.get(`https://api.github.com/users/${username}`);
